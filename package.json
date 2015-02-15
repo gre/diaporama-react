@@ -1,0 +1,24 @@
+{
+  "name": "diaporama-react",
+  "version": "1.0.0",
+  "description": "Diaporama component for React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:glslio/diaporama-react.git"
+  },
+  "keywords": [
+    "diaporama",
+    "react"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glslio/diaporama-react/issues"
+  },
+  "homepage": "https://github.com/glslio/diaporama-react",
+  "dependencies": {
+    "diaporama": "^1.1.0",
+    "react": "^0.12.2"
+  }
+}
