@@ -17,7 +17,8 @@ var DiaporamaElement = React.createClass({
   },
 
   componentDidMount: function () {
-    this.diaporama = Diaporama(this.getDOMNode());
+    var container = this.getDOMNode();
+    this.diaporama = Diaporama(this.getDOMNode(), this.props);
   },
 
   componentWillUnmount: function () {
@@ -30,12 +31,12 @@ var DiaporamaElement = React.createClass({
     }
   },
 
-  componentShouldUpdate: function () {
+  shouldComponentUpdate: function () {
     return false;
   },
 
   render: function () {
-    return React.createElement("div");
+    return React.createElement("div", { ref: "container" });
   }
 });
 
