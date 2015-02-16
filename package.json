@@ -17,8 +17,10 @@
     "url": "https://github.com/glslio/diaporama-react/issues"
   },
   "homepage": "https://github.com/glslio/diaporama-react",
+  "peerDependencies": {
+    "react": "0.12.x"
+  },
   "dependencies": {
-    "diaporama": "^1.1.0",
-    "react": "^0.12.2"
+    "diaporama": "^1.1.0"
   }
 }
