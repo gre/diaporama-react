@@ -21,6 +21,6 @@
     "react": "0.13.x"
   },
   "dependencies": {
-    "diaporama": "^1.1.0"
+    "diaporama": "glslio/diaporama"
   }
 }
