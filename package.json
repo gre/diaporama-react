@@ -1,31 +1,31 @@
 {
-    "name": "diaporama-react",
-    "version": "1.1.1",
-    "description": "Diaporama component for React",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:glslio/diaporama-react.git"
-    },
-    "keywords": [
-        "diaporama",
-        "react"
-    ],
-    "author": "Gaëtan Renaudeau",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/glslio/diaporama-react/issues"
-    },
-    "homepage": "https://github.com/glslio/diaporama-react",
-    "browserify": {
-        "transform": [
-            "reactify"
-        ]
-    },
-    "devDependencies": {
-        "react": "0.13.x"
-    },
-    "dependencies": {
-        "diaporama": "glslio/diaporama"
-    }
+  "name": "diaporama-react",
+  "version": "1.1.1",
+  "description": "Diaporama component for React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:glslio/diaporama-react.git"
+  },
+  "keywords": [
+    "diaporama",
+    "react"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glslio/diaporama-react/issues"
+  },
+  "homepage": "https://github.com/glslio/diaporama-react",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "devDependencies": {
+    "react": "0.13.x"
+  },
+  "dependencies": {
+    "diaporama": "^1.1.15"
+  }
 }
