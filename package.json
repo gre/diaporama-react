@@ -17,10 +17,15 @@
     "url": "https://github.com/glslio/diaporama-react/issues"
   },
   "homepage": "https://github.com/glslio/diaporama-react",
-  "peerDependencies": {
-    "react": "0.12.x"
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "devDependencies": {
+    "react": "0.13.x"
   },
   "dependencies": {
-    "diaporama": "^1.1.0"
+    "diaporama": "^1.1.15"
   }
 }
