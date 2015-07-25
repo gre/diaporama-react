@@ -19,14 +19,14 @@
   "homepage": "https://github.com/glslio/diaporama-react",
   "browserify": {
     "transform": [
-      "reactify"
+      "babelify"
     ]
   },
   "peerDependencies": {
     "react": "*"
   },
   "dependencies": {
-    "diaporama": "^1.6.0",
-    "reactify": "^1.1.0"
+    "babelify": "^6.1.3",
+    "diaporama": "^2.0.0"
   }
 }
