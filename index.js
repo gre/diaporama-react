@@ -30,9 +30,8 @@ var DiaporamaElement = React.createClass({
   },
 
   componentDidMount: function () {
-    var container = this.refs.container.getDOMNode();
     var opts = affectProps({}, this.props);
-    this.diaporama = Diaporama(container, opts);
+    this.diaporama = Diaporama(this.refs.container, opts);
     if (this.props.onDiaporamaCreated) {
       this.props.onDiaporamaCreated(this.diaporama);
     }
